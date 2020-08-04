@@ -5,7 +5,7 @@
             "id": "1",
             "title": "Shirt",
             "subtitle": "Wedding Shirt",
-            "contentURL": "req.body.contentURL",
+            "contentURL": "contentURL",
             "attributes": [
                 {
                     "attr_name_1": "req.body.attr_name_1",
@@ -17,7 +17,7 @@
             "id": "2",
             "title": "Trousers",
             "subtitle": "Wedding Trousers",
-            "contentURL": "req.body.contentURL",
+            "contentURL": "contentURL",
             "attributes": [
                 {
                     "attr_name_1": "req.body.attr_name_1",
