@@ -3,7 +3,24 @@ var router = express.Router();
 var db = require('../db.json')
 
 router.get('/choice', (req, res) => {
-    res.json(db)
+    //get an array of choices
+    res.json(db.choices)
+});
+
+router.get('/choice', (req, res) => {
+    //get an array of first choice only
+    res.json(db.choices)
+});
+
+router.get('/choice', (req, res) => {
+    //get an array of second choice only
+    res.json(db.choices)
+});
+
+router.get('/choice', (req, res) => {
+    //get value from first choice parameter
+    res.json(db.choices)
+    //this can be used getting first or second choice parameter
 });
 
 router.post('/choice', (req, res) => {
